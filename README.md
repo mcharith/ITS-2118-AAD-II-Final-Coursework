@@ -47,5 +47,7 @@ All services are tested using **Postman**, focusing on:
 
 > 🚀 SPMS transforms urban parking by enhancing accessibility, reducing congestion, and enabling smart city infrastructure.
 
+[Postman Collection](./postman_collection.json)
+
 ✅Eureka Dashboard
 ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
