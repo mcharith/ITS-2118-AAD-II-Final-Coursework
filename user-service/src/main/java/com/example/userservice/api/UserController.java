@@ -75,7 +75,6 @@ public class UserController {
                     .body(new ResponseDTO(VarList.Conflict, "Authorization Failure! Please Try Again", null));
         }
 
-// ✅ Use loadedUser (has role) instead of userDTO
         System.out.println(loadedUser);
         String token = jwtUtil.generateToken(loadedUser);
 
@@ -107,6 +106,8 @@ public class UserController {
         userService.updateUser(id, dto);
         return ResponseEntity.ok("User updated successfully");
     }
+
+
     @GetMapping("/all")
     @PreAuthorize("hasRole('USER')")
     public List<User> getAllUsers(HttpServletRequest request) {

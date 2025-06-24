@@ -13,6 +13,4 @@ public class ParkingSpaceDTO {
     private String status;
     private String zone;
     private Double pricePerHour;
-
-    // Getters and setters
 }

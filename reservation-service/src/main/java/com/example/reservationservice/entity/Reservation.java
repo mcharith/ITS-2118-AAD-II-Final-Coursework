@@ -25,6 +25,4 @@ public class Reservation {
     private LocalDateTime endTime;
 
     private String status; // confirmed, cancelled, completed
-
-    // Getters and setters
 }

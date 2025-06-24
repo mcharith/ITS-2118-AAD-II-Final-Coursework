@@ -15,6 +15,4 @@ public class ReservationDTO {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private String status;
-
-    // Getters and setters
 }
